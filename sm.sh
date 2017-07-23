@@ -52,7 +52,7 @@ install_libsodium(){
 	./configure --prefix=/usr && make
 	make install
 	popd
-	wget http://home.ustc.edu.cn/~mmmwhy/mbedtls-2.4.0-gpl.tgz
+	wget https://tls.mbed.org/download/start/mbedtls-2.4.0-gpl.tgz
 	tar xvf mbedtls-2.4.0-gpl.tgz && rm -rf mbedtls-2.4.0-gpl.tgz
 	pushd mbedtls-2.4.0
 	make SHARED=1 CFLAGS=-fPIC
