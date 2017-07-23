@@ -33,7 +33,7 @@ plugins:
                 flow: 200000000000
     email:
         use: true
-        username: 'mmmwhy@hotmail.com'
+        username: 'clybook@163.com'
         password: 'Yang7572473'
         host: 'smtp.163.com'     
     webgui:
